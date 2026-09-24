@@ -1,11 +1,7 @@
 {
     "recommendations": [
-        "openhacking.vscode-extension-api-extractor-snippet",
-        "dbaeumer.vscode-eslint",
-        "maggie.eslint-rules-zh-plugin",
-        "eamodio.gitlens",
-        "geddski.macros",
+        "myml.vscode-markdown-plantuml-preview",
         "esbenp.prettier-vscode",
-        "whosydd.prettier-config"
+        "jebbs.plantuml"
     ]
 }
