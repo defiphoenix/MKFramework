@@ -3,13 +3,13 @@
     "version": "3.8.6"
   },
   "scripts": {
-    "eslint 全局修复": "npx eslint --fix ./assets/**/*.ts",
-    "prettier 全局格式化": "npx prettier --write ./assets/**/*.ts",
-    "查找循环依赖": "npx madge --circular --extensions ts ./assets/",
-    "构建框架 d.ts": "npx ts-node ./extensions/MKFramework/source/CMD.ts build-dts",
-    "剔除或恢复框架模块": "npx ts-node ./extensions/MKFramework/source/CMD.ts tree-shaking",
-    "开启测试服务器": "cd ./tool/test/websocket-server && npm install && npx ts-node ./index.ts",
-    "更新远程分支": "git fetch --prune & git remote prune origin"
+    "eslint \u5168\u5c40\u4fee\u590d": "npx eslint --fix ./assets/**/*.ts",
+    "prettier \u5168\u5c40\u683c\u5f0f\u5316": "npx prettier --write ./assets/**/*.ts",
+    "\u67e5\u627e\u5faa\u73af\u4f9d\u8d56": "npx madge --circular --extensions ts ./assets/",
+    "\u6784\u5efa\u6846\u67b6 d.ts": "npx ts-node ./extensions/MKFramework/source/CMD.ts build-dts",
+    "\u5254\u9664\u6216\u6062\u590d\u6846\u67b6\u6a21\u5757": "npx ts-node ./extensions/MKFramework/source/CMD.ts tree-shaking",
+    "\u5f00\u542f\u6d4b\u8bd5\u670d\u52a1\u5668": "cd ./tool/test/websocket-server && npm install && npx ts-node ./index.ts",
+    "\u66f4\u65b0\u8fdc\u7a0b\u5206\u652f": "git fetch --prune & git remote prune origin"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.34.0",
@@ -33,6 +33,6 @@
     "protobufjs": "^8.8.0"
   },
   "MKFramework": {
-    "version": "开发版"
+    "version": "\u5f00\u53d1\u7248"
   }
 }
